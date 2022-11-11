@@ -24,5 +24,5 @@ $science = $scrap->withOutPagination("https://books.toscrape.com/catalogue/categ
 $history = $scrap->withPagination("https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html");
 ```
 
-#### Note - File download is conditioned based on GET request. For `reviews_desc.csv` file `reviews` should be valid. 
+#### Note - File download is conditioned based on GET request. For `reviews_desc.csv` file `reviews` parameter should be valid. 
 
